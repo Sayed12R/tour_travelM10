@@ -9,7 +9,7 @@
 header, main{
     max-width: 1500px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     font-family: var(--fstyle);
 }
 nav{
@@ -17,14 +17,12 @@ nav{
     justify-content: center;
     justify-content: space-between;
     margin-top: 50px;
-    background-color: yellow;
-   
+    background-color: yellow; 
 }
 nav ul{
     display: flex;
     list-style: none;
     margin-right: 100px;
-    /* margin-right: 50px; */
 }
 nav ul li{
     margin-right: 20px;
@@ -39,7 +37,6 @@ nav ul li{
     margin-left: 100px;
 }
 .hero h1{
-    /* background-color: blue; */
    padding-left: 10px;
     font-size: 30px;
    margin-top: 7px;
@@ -181,7 +178,7 @@ nav ul li{
  width: 600px;
 }
 /* sec2 */
-.sec2info{
+.uinfo{
     margin-top: 70px;
    display: flex;
    justify-content: center;
@@ -191,20 +188,22 @@ nav ul li{
    font-style: var(--fstyle);
    color: var(--fcolor);
 }
-.sec2info p{
+.up{
     width: 55%;
     margin: 0 auto;
 }
-.sec2info h1{
+
+.uh1{
     color: black;
     font-weight: var(--fweight);
 }
+
 .box{
-    /* margin:10px; */
+   
     width: 100%;
     height: 300px;
     border: 1px solid red;
-    /* background-color: yellowgreen; */
+    
 
  }
  .bb{
@@ -283,7 +282,54 @@ nav ul li{
     font-weight: bolder;
     font-size: 20px;
  }
+/* sec 3 */
+ .bux{
+    width: 100%;
+    height: 300px;
+    border: 1px solid yellowgreen;
+ 
+  
+ }
+ .bux_info{
+    margin: 40px 50px 20px 20px;
+    
+ }
+ .bb2{
+    display: grid;
+    gap: 20px;
+ 
+    margin-right: 20px;
+    margin-top: 50px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-areas: 
+    ". o o o o o p p p p p ."
+    ". . . q q q q q q . . ."
+    
+    
+    ;
+ }
 
+ #bux_1{
+    grid-area: o;
+    border: 2px solid rgb(202, 66, 86);
+    border-radius: 20px;
+    position: relative;
+   ;
+   
+ }
+ #bux_2{
+    grid-area: p;
+    border: 2px solid burlywood;
+    border-radius: 20px;
+    position: relative;
+ }
+ #bux_3{
+    grid-area: q;
+    border: 2px solid rgb(140, 140, 206);
+    border-radius: 20px;
+    position: relative;
+ }
+ /* sec4 */
 
 
 
@@ -296,7 +342,7 @@ nav ul li{
 
 
  main{
-    height: 2000px;
+    height: 4000px;
  }
 
 @media screen and (min-width:1px) and (max-width:576px) {
@@ -431,7 +477,7 @@ nav ul li{
     margin-left: 13px;
     width: 100%;
  }
- .sec2info p{
+  .up{
     width: 90%;
  }
 
