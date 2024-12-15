@@ -9,7 +9,7 @@
 header, main{
     max-width: 1500px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     font-family: var(--fstyle);
 }
 nav{
@@ -17,7 +17,7 @@ nav{
     justify-content: center;
     justify-content: space-between;
     margin-top: 50px;
-    background-color: yellow; 
+    /* background-color: yellow;  */
 }
 nav ul{
     display: flex;
@@ -31,7 +31,7 @@ nav ul li{
 }
 .hero{
     display: flex;
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 20%;
     text-align: center;
     margin-left: 100px;
@@ -112,7 +112,7 @@ nav ul li{
     border: none;
     border-radius: 8px;
     padding: 15px 40px;
-    background-color: orange;
+    background-color: rgb(237, 144, 63);
     color: white;
     cursor: pointer;
 }
@@ -202,7 +202,7 @@ nav ul li{
    
     width: 100%;
     height: 300px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     
 
  }
@@ -286,7 +286,7 @@ nav ul li{
  .bux{
     width: 100%;
     height: 300px;
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
  
   
  }
@@ -333,12 +333,12 @@ nav ul li{
  .sec4infoR{
     width: 47%;
     height: 32vh;
-    /* border: 2px solid rebeccapurple; */
+
     position: relative;
     color: black;
     left: 47%;
     top: 20%;
-    /* background-color: white; */
+
  }
  .sec4infoRR{    
     width: 47%;
@@ -372,7 +372,7 @@ nav ul li{
  
  
    background-repeat: no-repeat;
-   border: 1px solid red;
+   /* border: 1px solid red; */
  }
  .sec4 p{
     margin-bottom: 30px;
@@ -380,6 +380,8 @@ nav ul li{
  .sec4info1{
     
     background-image: url(../Images/Group\ 39.png);
+    /* width: 50%; */
+    
 
  }
  .sec4info2{
@@ -406,7 +408,7 @@ nav ul li{
  .sec5info{
     width: 40%;
     margin-left: 150px;
-    background-color: aqua;
+    /* background-color: aqua; */
     font-size: 16px;
     
  }
@@ -421,7 +423,7 @@ nav ul li{
     height: 50vh;
     background-image: url(../Images/Rectangle\ 8\ \(1\).png);
     background-repeat: no-repeat;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-right: 120px;
  }
  .sec6bg_info{
@@ -526,20 +528,9 @@ footer ul{
 footer ul li{
     margin-right: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
- main{
+/* main{
     height: 5510px;
- }
+ } */
 
 @media screen and (max-width:576px) {
     nav{
@@ -662,7 +653,7 @@ footer ul li{
 
     width: 100%;
     height: 230px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
    
 
  }
@@ -691,6 +682,90 @@ footer ul li{
     
     ;
  }
+ #sec4info{
+    width: 85%;
+    height: 65vh;
+ }
+ .sec4info1{
+    
+    background-image: url(../Images/Group\ 39.png);
+    background-size: 260% 100%;
+    background-position: -330px 0px;
+   
+ }
+ .sec4info2{
+        background-image: url(../Images/Group\ 40.png);
+        background-position: -330px 0px;
+        background-size: 260% 100%;
+      
+ }
+ .sec4info3{
+        background-image: url(../Images/Group\ 39.png);
+        background-position: -330px 0px;
+        background-size: 260% 100%;
+ }
+ .sec4infoR, .sec4infoRR{
+    width: 91%;
+    height: 43vh;
+    left: 4%;
+    top: 29%;
+
+ }
+ .sec4Ra ul{
+   width: 110%;
+   margin-right: 5px;
+ }
+ .sec5{
+    display: flex;
+    flex-direction: column;
+ }
+ .sec5info{
+    width: 90%;
+    margin-left: 10px;  
+ }
+ video{
+    margin-top: 30px;
+    width: 370px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+ }
+ .sec6{
+   flex-direction: column;
+   margin-top: 40px;
+ }
+ .sec6btn{
+   display: flex;
+   justify-content: start;
+ }
+ .btnn{
+   padding: 15px 20px;
+  
+ }
+ .sec6info{
+    margin-left: 10px;
+   width: 90%;
+   margin-bottom: 30px;
+  
+}
+.sec6bg{
+   width: 94%;
+   height: 40vh;
+   border-radius: 20px;
+   margin: 0px 10px;
+}
+
+.sec6bg_info{
+  padding: 0px 20px;
+   top: 61%;
+   width: 50%;
+   left: 34%;
+}
+.sec6bg_info h1{
+   margin-bottom: 0px;
+}
+footer p{
+   width: 85%;
+}
 
 
 
